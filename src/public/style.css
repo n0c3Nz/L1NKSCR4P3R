@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	margin-top: 450px;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #ff6555;
+	text-align: left;
+	background-color: #1b1b1f;
+	font-family: 'Righteous', cursive;
+	-webkit-user-select: none; /* Deshabilita la selección de texto en general */
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+  }
+  
+  .btn-primary {
+	color: antiquewhite;
+	background-color: #ff6555;
+	border: 0px;;
+  }
+  
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:visited, .btn-primary::selection{
+	color: antiquewhite;
+	background-color: #ff8555 !important;
+	border: 0px !important;
+	box-shadow: none !important;
+	outline: none !important;
+  }
+  a {
+	color: #0fff8b;
+  }
+  a:hover {
+	color: #ff6555;
+  }
+  a::selection {
+	background-color: #95392f; /* Cambia el color de selección según tu preferencia */
+	color: #1b1b1f; /* Cambia el color del texto seleccionado según tu preferencia */
+  }
+  ul, li {
+	-webkit-user-select: text; /* Habilita la selección de texto solo para los enlaces */
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+  }
+  .form-control {
+	background-color: #ff6555; /* Cambia el color de fondo según tu preferencia */
+	color:antiquewhite;
+	border-radius: 35.25rem;
+	border-color: #1b1b1f;
+	filter: drop-shadow(2px 2px 1px #00000071);
+	box-shadow: inset 0px 0px 11px -2px #95392f;
+  }
+  .form-control:hover, .form-control:active {
+	background-color: #ff8555; /* Cambia el color de fondo según tu preferencia */
+	color:antiquewhite;
+  }
+  .form-control:focus {
+	background-color: #ff6555; /* Cambia el color de fondo según tu preferencia */
+	color:antiquewhite;
+	box-shadow: none !important;
+	border: 0px;
+	caret-color: antiquewhite; /* Cambia el color del caret según tu preferencia */
+	caret-shape: block;
+  }
+  .form-control::placeholder {
+	color:#95392f;
+  }
+  .form-control::selection {
+	background-color: #95392f; /* Cambia el color de selección según tu preferencia */
+	color: #fff; /* Cambia el color del texto seleccionado según tu preferencia */
+  }
+  
+  .palabra_clave {
+	color: #0fff8b;
+	margin-left: 800px;
+  }
+  .palabra_clave::selection {
+	background-color: #95392f; /* Cambia el color de selección según tu preferencia */
+	color: #1b1b1f; /* Cambia el color del texto seleccionado según tu preferencia */
+  }
