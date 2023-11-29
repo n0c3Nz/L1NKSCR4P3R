@@ -131,7 +131,7 @@ function getRealIP(req) {
 
 async function startServer() {
   await fastify.ready();
-  fastify.listen({ host: "localhost", port: 991 }, async (err, address) => {
+  fastify.listen({ host: "localhost", port: 45000 }, async (err, address) => {
     if (err) {
       console.error(err);
       return false;
